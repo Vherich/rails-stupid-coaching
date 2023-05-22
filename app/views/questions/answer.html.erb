@@ -1,0 +1,10 @@
+<div class="d-flex justify-content-center align-items-center flex-column">
+  <h1 class="mt-5">Stupid Coaching</h1>
+
+    <p class= "mt-5"><%= params[:question] %></p>
+    <p>-You</p>
+
+    <p class= "mt-5"><%= @answer %></p>
+    <p>-Your coach</p>
+    <button type="button" class= "btn btn-primary mt-5"><%= link_to "Ask a new question", ask_path, class: "text-decoration-none text-light"%></button>
+</div>
